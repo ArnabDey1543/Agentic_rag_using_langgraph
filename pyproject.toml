@@ -6,14 +6,21 @@ readme = "README.md"
 requires-python = ">=3.11"
 
 dependencies = [
+    "faiss-cpu>=1.13.2",
     "ipykernel>=6.31.0",
     "langchain>=0.3.28",
     "langchain-community>=0.4.1",
     "langchain-groq>=0.3.8",
     "langchain-tavily>=0.2.11",
+    "langchain-text-splitters>=1.1.2",
     "langgraph>=0.6.11",
     "langgraph-api>=0.8.7",
     "langgraph-cli[inmem]>=0.4.3",
     "langsmith>=0.4.37",
+    "pillow>=12.2.0",
+    "pymupdf>=1.27.2.3",
     "python-dotenv>=1.2.1",
+    "scikit-learn>=1.8.0",
+    "torch>=2.11.0",
+    "transformers>=5.8.0",
 ]

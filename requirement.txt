@@ -7,3 +7,10 @@ langchain-tavily
 langgraph-cli[inmem]
 langgraph-api
 langchain_community
+pymupdf
+transformers
+torch
+langchain-text-splitters
+scikit-learn 
+Pillow
+faiss-cpu
